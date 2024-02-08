@@ -14,7 +14,13 @@ function Projects() {
         <div className="prodiv">
           <img src={project} alt="" className="projectImg" />
           <p>BMI Calculator</p>
-          <button className="projectbtn" >View Project</button>
+          <a
+            href="https://bmi-calculator-chi-ochre.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="projectbtn">View Project</button>
+          </a>
         </div>
         <div className="prodiv">
           <img src={project} alt="" className="projectImg" />
