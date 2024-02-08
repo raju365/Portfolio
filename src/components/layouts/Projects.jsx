@@ -13,8 +13,8 @@ function Projects() {
       <div className="projectImgs">
         <div className="prodiv">
           <img src={project} alt="" className="projectImg" />
-          <p>Project Name</p>
-          <button className="projectbtn">View Project</button>
+          <p>BMI Calculator</p>
+          <button className="projectbtn" >View Project</button>
         </div>
         <div className="prodiv">
           <img src={project} alt="" className="projectImg" />
