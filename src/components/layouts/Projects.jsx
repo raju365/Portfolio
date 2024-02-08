@@ -24,8 +24,14 @@ function Projects() {
         </div>
         <div className="prodiv">
           <img src={project} alt="" className="projectImg" />
-          <p>Project Name</p>
-          <button className="projectbtn">View Project</button>
+          <p>Wather App</p>
+          <a
+            href="https://weather-react-kappa-three.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="projectbtn">View Project</button>
+          </a>
         </div>
         <div className="prodiv">
           <img src={project} alt="" className="projectImg" />
