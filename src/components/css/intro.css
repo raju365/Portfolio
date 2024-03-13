@@ -1,0 +1,94 @@
+#intro {
+  min-height: calc(100% - 4rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+
+  position: relative;
+}
+.introBg {
+  margin: 35px;
+  object-fit: cover;
+  height: 70vh;
+  border-radius: 4rem;
+}
+.introContent {
+  min-height: 81vh;
+  width: 100vw;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hello {
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+.introName {
+  color: yellow;
+}
+.introPara {
+  font-size: medium;
+  font-weight: 300;
+}
+.btn {
+  background: white;
+  margin: 1rem 0;
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #e0dada;
+  color: #000;
+}
+.btnImg {
+  object-fit: cover;
+  margin: 0 0.25rem;
+  height: 1rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 840px) {
+  #intro {
+    min-height: 100vh;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    background-image: url(../assets/profile2.jpg);
+
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .introBg {
+    /* position: absolute;
+    margin: 0 2%;
+    top: 1rem;
+    right: 0;
+    height: 400px;
+    width: 350px;
+    border-radius: 25%; */
+    display: none;
+  }
+
+  .introContent {
+    min-height: 60vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 10vw;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
