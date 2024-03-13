@@ -37,6 +37,7 @@
   padding: 0.2rem 2rem;
   border-radius: 0.5rem;
   background: rgb(50, 50, 50);
+  transition: ease 0.3s all;
   animation: slideInRight 1s ease-in;
 }
 .skillbar:hover {
