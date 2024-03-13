@@ -36,6 +36,18 @@
   padding: 0.2rem 2rem;
   border-radius: 0.5rem;
   background: rgb(50, 50, 50);
+  animation: slideInRight 1s ease-in;
+}
+.skillbar:hover {
+  transform: translate(5px);
+}
+@keyframes slideInRight {
+  from {
+    transform: translateX(-300px);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 .skillbarImg {
   object-fit: cover;
