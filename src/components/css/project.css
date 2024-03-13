@@ -29,8 +29,9 @@
   margin-top: 1rem;
 }
 .prodiv {
-  border: 2px solid white;
+  box-shadow: -4px 10px 15px -3px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
+  background: #323232;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,7 +48,6 @@
   object-fit: cover;
   height: 12rem;
   margin: 0.5rem;
-  border: solid 3px white;
   border-radius: 1rem;
 }
 .projectbtn {
