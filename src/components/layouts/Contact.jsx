@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import "../css/contact.css";
-import facebook from "../assets/facebook.png";
+import github from "../assets/github.png";
 import twitter from "../assets/twitter.png";
 import instagram from "../assets/instagram.png";
 import linkedin from "../assets/linkedin.png";
@@ -45,6 +45,7 @@ function Contact() {
           placeholder="Your Name"
           name="user_name"
           onChange={(e) => setName(e.target.value)}
+          required
         />
         <input
           type="email"
@@ -53,6 +54,7 @@ function Contact() {
           placeholder="Your Email"
           name="user_email"
           onChange={(e) => setEmail(e.target.value)}
+          required
         />
         <textarea
           name="message"
@@ -61,15 +63,36 @@ function Contact() {
           rows="5"
           placeholder="Your Message"
           onChange={(e) => setMsg(e.target.value)}
+          required
         ></textarea>
         <button type="submit" value="send" className="submitbtn">
           Submit
         </button>
         <div className="links">
-          <img src={facebook} alt="facebook" className="link" />
-          <img src={twitter} alt="twitter" className="link" />
-          <img src={instagram} alt="insta" className="link" />
-          <img src={linkedin} alt="linkedin" className="link" />
+          <a href="https://github.com/raju365" target="_blank" rel="noreferrer">
+            <img src={github} alt="twitter" className="link" />
+          </a>
+          <a
+            href="https://x.com/RajuBarman365"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={twitter} alt="twitter" className="link" />
+          </a>
+          <a
+            href="https://www.instagram.com/rajbarman365"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={instagram} alt="insta" className="link" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/raju-barman365"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={linkedin} alt="linkedin" className="link" />
+          </a>
         </div>
       </form>
     </section>
