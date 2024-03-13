@@ -38,6 +38,10 @@
   min-height: 20rem;
   width: 16rem;
   margin: 3rem;
+  transition: ease 0.5s all;
+}
+.prodiv:hover {
+  transform: translateY(-5px);
 }
 .projectImg {
   object-fit: cover;
@@ -68,7 +72,5 @@
     border: solid 3px white;
     border-radius: 1rem;
     cursor: pointer;
-  }
-  .prodiv {
   }
 }
