@@ -1,6 +1,9 @@
 import React from "react";
 import "../css/project.css";
 import project from "../assets/project.png";
+import weather from "../assets/weather.png";
+import bmi from "../assets/bmi.png";
+import ai from "../assets/ai.png";
 
 function Projects() {
   return (
@@ -12,7 +15,7 @@ function Projects() {
       </span>
       <div className="projectImgs">
         <div className="prodiv">
-          <img src={project} alt="" className="projectImg" />
+          <img src={bmi} alt="" className="projectImg" />
           <p>BMI Calculator</p>
           <a
             href="https://bmi-calculator-chi-ochre.vercel.app/"
@@ -23,7 +26,7 @@ function Projects() {
           </a>
         </div>
         <div className="prodiv">
-          <img src={project} alt="" className="projectImg" />
+          <img src={weather} alt="" className="projectImg" />
           <p>Wather App</p>
           <a
             href="https://weather-react-kappa-three.vercel.app/"
@@ -34,7 +37,7 @@ function Projects() {
           </a>
         </div>
         <div className="prodiv">
-          <img src={project} alt="" className="projectImg" />
+          <img src={ai} alt="" className="projectImg" />
           <p>Ai Chatbot App</p>
           <a
             href="https://ai-chat-helper.vercel.app/"
