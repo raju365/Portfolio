@@ -47,10 +47,17 @@ function Projects() {
             <button className="projectbtn">View Project</button>
           </a>
         </div>
+        
         <div className="prodiv">
-          <img src={project} alt="" className="projectImg" />
-          <p>Project Name</p>
-          <button className="projectbtn">View Project</button>
+          <img src={ai} alt="" className="projectImg" />
+          <p>Ai Chatbot App</p>
+          <a
+            href="https://multi-mart-ecommerce.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="projectbtn">View Project</button>
+          </a>
         </div>
       </div>
     </section>
