@@ -4,7 +4,7 @@ import project from "../assets/project.png";
 import weather from "../assets/weather.png";
 import bmi from "../assets/bmi.png";
 import ai from "../assets/ai.png";
-
+import multiMart from "../assets/multiMart.png";
 function Projects() {
   return (
     <section id="projects">
@@ -49,7 +49,7 @@ function Projects() {
         </div>
         
         <div className="prodiv">
-          <img src={ai} alt="" className="projectImg" />
+          <img src={multiMart} alt="" className="projectImg" />
           <p>Ai Chatbot App</p>
           <a
             href="https://multi-mart-ecommerce.vercel.app/"
