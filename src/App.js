@@ -4,6 +4,8 @@ import About from "./components/layouts/About";
 import Projects from "./components/layouts/Projects";
 import Contact from "./components/layouts/Contact";
 import Footer from "./components/layouts/Footer";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 function App() {
   return (
     <div className="App">
@@ -13,6 +15,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+      <ToastContainer />
     </div>
   );
 }

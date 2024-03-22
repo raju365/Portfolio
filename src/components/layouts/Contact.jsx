@@ -5,6 +5,7 @@ import twitter from "../assets/twitter.png";
 import instagram from "../assets/instagram.png";
 import linkedin from "../assets/linkedin.png";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
 function Contact() {
   const form = useRef();
   const [name, setName] = useState("");
@@ -15,6 +16,7 @@ function Contact() {
     setEmail("");
     setMsg("");
     setName("");
+    toast.success("Email sent successfully");
 
     e.preventDefault();
 
