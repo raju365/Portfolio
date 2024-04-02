@@ -50,7 +50,7 @@ function Projects() {
         
         <div className="prodiv">
           <img src={multiMart} alt="" className="projectImg" />
-          <p>Multi Mart Ecommerce website</p>
+          <p>Multi Mart Ecommerce Website</p>
           <a
             href="https://multi-mart-ecommerce.vercel.app/"
             target="_blank"
